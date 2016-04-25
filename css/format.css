@@ -1,0 +1,84 @@
+/* sets base style for each page */
+html {
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+padding: 0px;
+}
+
+/* set background image per page */
+.home-bg {
+background: url(../img/index-bg.jpg) no-repeat center center fixed;
+}
+.jobb-bg {
+background: url(../img/jobb-bg.jpg) no-repeat center center fixed;
+}
+.about-bg {
+background: url(../img/about-bg.jpg) no-repeat center center fixed;
+}
+
+body{
+	font-family: Calibri, Helvetica, Arial;
+	margin: 0;
+	padding: 0;
+}
+h1{
+	color:rgb(0,0,255);
+}
+h2{
+	color:purple;
+	padding: 5px;
+}
+h3{
+	color:white;
+	padding: 5px;
+}
+p{
+	padding: 5px;
+	color:rgb(255, 62, 206);
+	text-align: justify;
+}
+#content{
+	margin: 50px;
+	width: 100%;
+	text-align: justify;
+}
+#menuField /* id for black panel*/
+{
+	color: #FFFFFF; width: 100%; height: 100px; 
+	background-color: #000000; 
+	position: relative; top: 5px;
+	opacity: 0.50; /* How tranparent the panel will be. 1 is not at all*/
+}
+#menu{ /* id for black element*/  
+	font-size: 22px;
+	padding-top: 35px;
+}
+li a:link { /* unvisited link */
+	color: white;
+}
+li a:visited { /* visited link */ 
+	color: yellow;
+}
+li a:hover { /* mouse over link */  
+	color: #00BFFF;
+}
+li a:active { /* selected link */
+	color: gray;
+}
+li { 
+	float: left; 
+}
+
+/* Every link inside <li> but not outside of it*/
+li a {
+	padding: 75px; 
+	text-decoration: none;
+	font-weight: bolder;
+}
+#inner { /* För att centrera menyn*/ 
+	width: 50%;
+	margin: 0 auto;
+}
+
