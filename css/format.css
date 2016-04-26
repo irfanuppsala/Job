@@ -31,6 +31,7 @@ h2{
 }
 h3{
 	color:rgb(0,0,255);
+	color:#ff0084;
 }
 p{
 	text-align: justify;
@@ -45,11 +46,14 @@ img{
 	border-radius: 10px;
 	float: right;
 }
+mark{
+	background-color: pink;
+}
 #menuField /* id for black panel*/
 {
 	color: #FFFFFF; width: 100%; height: 100px; 
 	background-color: #000000; 
-	position: relative; top: 5px;
+	position: relative; top: 5px; margin-bottom: 10px;
 	opacity: 0.50; /* How tranparent the panel will be. 1 is not at all*/
 }
 #menu{ /* id for black element*/  
@@ -86,7 +90,7 @@ img{
 #job-content{
 	width: 75%;
 	height:auto;
-	margin: 13px 0 0 210px;
+	margin: 0 auto;
 	padding: 15px;
 	text-align: justify;
 	opacity: 0.75;
@@ -103,19 +107,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9fcff9', end
 #contact-content{
 	width: 75%;
 	height:auto;
-	margin: 13px 0 0 210px;
+	margin: 0 auto;
 	padding: 15px;
 	text-align: justify;
 	opacity: 0.75;
 	border-radius: 15px;
-background: rgba(248,80,50,1);
-background: -moz-radial-gradient(center, ellipse cover, rgba(248,80,50,1) 0%, rgba(247,86,59,1) 8%, rgba(241,111,92,1) 39%, rgba(246,41,12,1) 58%, rgba(240,47,23,1) 66%, rgba(231,56,39,1) 77%, rgba(231,56,39,1) 86%);
-background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(248,80,50,1)), color-stop(8%, rgba(247,86,59,1)), color-stop(39%, rgba(241,111,92,1)), color-stop(58%, rgba(246,41,12,1)), color-stop(66%, rgba(240,47,23,1)), color-stop(77%, rgba(231,56,39,1)), color-stop(86%, rgba(231,56,39,1)));
-background: -webkit-radial-gradient(center, ellipse cover, rgba(248,80,50,1) 0%, rgba(247,86,59,1) 8%, rgba(241,111,92,1) 39%, rgba(246,41,12,1) 58%, rgba(240,47,23,1) 66%, rgba(231,56,39,1) 77%, rgba(231,56,39,1) 86%);
-background: -o-radial-gradient(center, ellipse cover, rgba(248,80,50,1) 0%, rgba(247,86,59,1) 8%, rgba(241,111,92,1) 39%, rgba(246,41,12,1) 58%, rgba(240,47,23,1) 66%, rgba(231,56,39,1) 77%, rgba(231,56,39,1) 86%);
-background: -ms-radial-gradient(center, ellipse cover, rgba(248,80,50,1) 0%, rgba(247,86,59,1) 8%, rgba(241,111,92,1) 39%, rgba(246,41,12,1) 58%, rgba(240,47,23,1) 66%, rgba(231,56,39,1) 77%, rgba(231,56,39,1) 86%);
-background: radial-gradient(ellipse at center, rgba(248,80,50,1) 0%, rgba(247,86,59,1) 8%, rgba(241,111,92,1) 39%, rgba(246,41,12,1) 58%, rgba(240,47,23,1) 66%, rgba(231,56,39,1) 77%, rgba(231,56,39,1) 86%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827', GradientType=1 );
+background: rgba(255,240,248,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(255,240,248,1) 30%, rgba(255,240,248,1) 45%, rgba(255,240,248,1) 51%, rgba(255,240,248,1) 64%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(30%, rgba(255,240,248,1)), color-stop(45%, rgba(255,240,248,1)), color-stop(51%, rgba(255,240,248,1)), color-stop(64%, rgba(255,240,248,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(255,240,248,1) 30%, rgba(255,240,248,1) 45%, rgba(255,240,248,1) 51%, rgba(255,240,248,1) 64%);
+background: -o-radial-gradient(center, ellipse cover, rgba(255,240,248,1) 30%, rgba(255,240,248,1) 45%, rgba(255,240,248,1) 51%, rgba(255,240,248,1) 64%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(255,240,248,1) 30%, rgba(255,240,248,1) 45%, rgba(255,240,248,1) 51%, rgba(255,240,248,1) 64%);
+background: radial-gradient(ellipse at center, rgba(255,240,248,1) 30%, rgba(255,240,248,1) 45%, rgba(255,240,248,1) 51%, rgba(255,240,248,1) 64%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff0f8', endColorstr='#fff0f8', GradientType=1 );
 }
 #job-content ul li{
 	text-align: justify;
