@@ -27,22 +27,23 @@ h1{
 	color:rgb(0,0,255);
 }
 h2{
-	color:purple;
-	padding: 5px;
+	color:rgb(0,0,255);
 }
 h3{
-	color:white;
-	padding: 5px;
+	color:rgb(0,0,255);
 }
 p{
-	padding: 5px;
-	color:rgb(255, 62, 206);
 	text-align: justify;
+	color: blue;
+	font-size: 18px;
 }
-#content{
-	margin: 50px;
-	width: 100%;
-	text-align: justify;
+span{
+	color:blue;
+	font-size: 17px;
+}
+img{
+	border-radius: 10px;
+	float: right;
 }
 #menuField /* id for black panel*/
 {
@@ -55,24 +56,24 @@ p{
 	font-size: 22px;
 	padding-top: 35px;
 }
-li a:link { /* unvisited link */
+#menu li a:link { /* unvisited link */
 	color: white;
 }
-li a:visited { /* visited link */ 
+#menu li a:visited { /* visited link */ 
 	color: yellow;
 }
-li a:hover { /* mouse over link */  
+#menu li a:hover { /* mouse over link */  
 	color: #00BFFF;
 }
-li a:active { /* selected link */
+#menu li a:active { /* selected link */
 	color: gray;
 }
-li { 
+#menu li { 
 	float: left; 
 }
 
 /* Every link inside <li> but not outside of it*/
-li a {
+#menu li a {
 	padding: 75px; 
 	text-decoration: none;
 	font-weight: bolder;
@@ -82,3 +83,42 @@ li a {
 	margin: 0 auto;
 }
 
+#job-content{
+	width: 75%;
+	height:auto;
+	margin: 13px 0 0 210px;
+	padding: 15px;
+	text-align: justify;
+	opacity: 0.75;
+	border-radius: 15px;
+	background: rgba(159,207,249,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(159,207,249,1) 35%, rgba(150,202,249,1) 41%, rgba(130,189,248,1) 55%, rgba(101,171,246,1) 75%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(35%, rgba(159,207,249,1)), color-stop(41%, rgba(150,202,249,1)), color-stop(55%, rgba(130,189,248,1)), color-stop(75%, rgba(101,171,246,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(159,207,249,1) 35%, rgba(150,202,249,1) 41%, rgba(130,189,248,1) 55%, rgba(101,171,246,1) 75%);
+background: -o-radial-gradient(center, ellipse cover, rgba(159,207,249,1) 35%, rgba(150,202,249,1) 41%, rgba(130,189,248,1) 55%, rgba(101,171,246,1) 75%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(159,207,249,1) 35%, rgba(150,202,249,1) 41%, rgba(130,189,248,1) 55%, rgba(101,171,246,1) 75%);
+background: radial-gradient(ellipse at center, rgba(159,207,249,1) 35%, rgba(150,202,249,1) 41%, rgba(130,189,248,1) 55%, rgba(101,171,246,1) 75%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9fcff9', endColorstr='#65abf6', GradientType=1 );
+}
+#contact-content{
+	width: 75%;
+	height:auto;
+	margin: 13px 0 0 210px;
+	padding: 15px;
+	text-align: justify;
+	opacity: 0.75;
+	border-radius: 15px;
+background: rgba(248,80,50,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(248,80,50,1) 0%, rgba(247,86,59,1) 8%, rgba(241,111,92,1) 39%, rgba(246,41,12,1) 58%, rgba(240,47,23,1) 66%, rgba(231,56,39,1) 77%, rgba(231,56,39,1) 86%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(248,80,50,1)), color-stop(8%, rgba(247,86,59,1)), color-stop(39%, rgba(241,111,92,1)), color-stop(58%, rgba(246,41,12,1)), color-stop(66%, rgba(240,47,23,1)), color-stop(77%, rgba(231,56,39,1)), color-stop(86%, rgba(231,56,39,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(248,80,50,1) 0%, rgba(247,86,59,1) 8%, rgba(241,111,92,1) 39%, rgba(246,41,12,1) 58%, rgba(240,47,23,1) 66%, rgba(231,56,39,1) 77%, rgba(231,56,39,1) 86%);
+background: -o-radial-gradient(center, ellipse cover, rgba(248,80,50,1) 0%, rgba(247,86,59,1) 8%, rgba(241,111,92,1) 39%, rgba(246,41,12,1) 58%, rgba(240,47,23,1) 66%, rgba(231,56,39,1) 77%, rgba(231,56,39,1) 86%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(248,80,50,1) 0%, rgba(247,86,59,1) 8%, rgba(241,111,92,1) 39%, rgba(246,41,12,1) 58%, rgba(240,47,23,1) 66%, rgba(231,56,39,1) 77%, rgba(231,56,39,1) 86%);
+background: radial-gradient(ellipse at center, rgba(248,80,50,1) 0%, rgba(247,86,59,1) 8%, rgba(241,111,92,1) 39%, rgba(246,41,12,1) 58%, rgba(240,47,23,1) 66%, rgba(231,56,39,1) 77%, rgba(231,56,39,1) 86%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827', GradientType=1 );
+}
+#job-content ul li{
+	text-align: justify;
+	color: blue;
+	font-size: 17px;
+}
